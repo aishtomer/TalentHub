@@ -31,6 +31,7 @@ global.db = new sqlite3.Database('./database.db',function(err){
 // Serve static files from the 'public' directory
 app.use(express.static(__dirname + '/public'));
 
+app.get('/', (req, res) => res.send('Hello World!'));
 
 // sets up a listener for the app on a port 3000 and log a message to the console indicating that the 
 // server is running and on which port it can be accessed.
