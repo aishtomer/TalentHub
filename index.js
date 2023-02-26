@@ -1,7 +1,7 @@
 // including modules in the app
 const express = require('express');
 const bodyParser = require('body-parser');
-const port = 3000;
+const port = 3001;
 const session = require('express-session');
 const sqlite3 = require('sqlite3').verbose();
 const app = express();
