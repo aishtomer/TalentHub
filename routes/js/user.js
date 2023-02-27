@@ -9,7 +9,7 @@ const salt = bcrypt.genSaltSync(saltRounds); // generate a salt
 
 
 router.get("/", (req, res) => {
-    global.db.all("SELECT user_id, email, first_name, last_name from loginDetails", 
+    global.db.all("SELECT user_id, email, first_name, last_name from userDetails", 
         function (err, users) {
             if (err) {
                 console.log(err);
@@ -30,7 +30,7 @@ router.post("/", (req, res, next) => {
     let hashedPassword = bcrypt.hashSync(password, salt);
     
     // query the database for all existing emails
-    global.db.all("SELECT email from loginDetails", function(err, rows){
+    global.db.all("SELECT email from userDetails", function(err, rows){
         if (err){
             next(err);
         } else {
@@ -46,11 +46,10 @@ router.post("/", (req, res, next) => {
             if (!found){
                 // insert new user's information into loginDetails table
                 global.db.run(
-                    "INSERT INTO loginDetails ('email', 'first_name', 'last_name', 'password') VALUES( ?, ?, ?, ?);",
+                    "INSERT INTO userDetails ('email', 'first_name', 'last_name', 'password') VALUES( ?, ?, ?, ?);",
                     [email, first_name, last_name, hashedPassword],
                     function (err) {
                         if (err) {
-                            console.log("Fuck!!!!");
                             next(err);
                         } else {
                             // set user_id in the session

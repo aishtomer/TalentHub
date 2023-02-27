@@ -5,7 +5,7 @@ BEGIN TRANSACTION;
 
 --create your tables with SQL commands here (watch out for slight syntactical differences with SQLite)
 
-CREATE TABLE IF NOT EXISTS loginDetails (
+CREATE TABLE IF NOT EXISTS userDetails (
     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
     email TEXT NOT NULL,
     first_name TEXT NOT NULL,
@@ -18,10 +18,8 @@ CREATE TABLE IF NOT EXISTS loginDetails (
 
 
 --insert default data (if necessary here)
-INSERT INTO loginDetails ("email", "first_name", "last_name", "password") VALUES( "janedoe@gmail.com", "Jane", "Doe", "JD");
-INSERT INTO loginDetails ("email", "first_name", "last_name", "password") VALUES( "johndoe@gmail.com", "John", "Doe", "JohnD");
-INSERT INTO loginDetails ("email", "first_name", "last_name", "password") VALUES( "aryadoe@gmail.com", "Arya", "Doe", "AD");
-INSERT INTO loginDetails ("email", "first_name", "last_name", "password") VALUES( "rosedoe@gmail.com", "Rose", "Doe", "RD");
+INSERT INTO userDetails ("email", "first_name", "last_name", "password") VALUES( "janedoe@gmail.com", "Jane", "Doe", "JD");
+INSERT INTO userDetails ("email", "first_name", "last_name", "password") VALUES( "johndoe@gmail.com", "John", "Doe", "JohnD");
 
 
 COMMIT;

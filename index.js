@@ -1,7 +1,7 @@
 // including modules in the app
 const express = require('express');
 const bodyParser = require('body-parser');
-const port = 3001;
+const port = 3000;
 const session = require('express-session');
 const sqlite3 = require('sqlite3').verbose();
 const app = express();
@@ -34,7 +34,7 @@ app.use(express.static('public'));
 /** Import Various Routes serving the application functionality */
 
 /** USERS */
-const usersDetails= require('./routes/user');
+const usersDetails= require('./routes/js/user');
 app.use('/', usersDetails);
 
 
