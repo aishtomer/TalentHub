@@ -15,13 +15,11 @@ img {
 height: 100%;
 width: 100%;
 }
-.icons{
-float: right;
 
+.icons{
+  text-align: right;
 }
-.icons i{
-margin: 0.2rem;
-}
+
 .btn ,btn-warning {
 background-color: #FA991C;
 color: white;}
