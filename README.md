@@ -1,5 +1,5 @@
 ##  Coursework Template ##
-### Agile Software Projects ###
+### CM2040 Database Networks and the Web ###
 
 #### Installation requirements ####
 

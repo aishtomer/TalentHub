@@ -1,11 +1,10 @@
 // including modules in the app
 const express = require('express');
 const bodyParser = require('body-parser');
-const app = express();
 const port = 3000;
-const bcrypt = require('bcrypt');
 const session = require('express-session');
 const sqlite3 = require('sqlite3').verbose();
+const app = express();
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -29,11 +28,27 @@ global.db = new sqlite3.Database('./database.db',function(err){
 });
 
 // Serve static files from the 'public' directory
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 
-app.get('/', (req, res) => res.send('Hello World!'));
+/**---------------------------------------------------------------------------------------- */
+/** Import Various Routes serving the application functionality */
 
-// sets up a listener for the app on a port 3000 and log a message to the console indicating that the 
+/** USERS */
+const usersDetails= require('./routes/js/user');
+app.use('/', usersDetails);
+
+
+/**------------------------------------------------------------------------------ */
+// Use ejs as the view engine
+app.set('view engine', 'ejs');
+
+// Landing Page
+app.get('/', (req, res) => {
+    res.render('user');
+});
+
+
+// sets up a listener for the app on a port 300 and log a message to the console indicating that the 
 // server is running and on which port it can be accessed.
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
