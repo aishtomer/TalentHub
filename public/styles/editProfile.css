@@ -118,6 +118,9 @@ a{
 text-decoration: none; 
 color: black;
 }
+.card_title ,col-6{
+  text-align: right;
+}
 .card-1{
 text-decoration: none;
 box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.132);
@@ -127,6 +130,7 @@ box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.452);
 
 
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 h1{
