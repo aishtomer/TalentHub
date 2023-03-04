@@ -27,46 +27,41 @@
 
 <body>
   <div id="first_container" class="container">
-    <div class="blue"></div>
-    <div class="header">
-      <div class="img-container">
-        <img src="image.jpg" alt="Image not found" />
+    <div id="row_head" class="row">
+      <div class="col-xs-12 col-sm-4 col-md-2">
+        <img class="rounded mx-auto d-block" src="image.jpg" alt="Image not found" />
       </div>
-      <div class="content-container">
-        <div class="bio-data">
-          <div>
+      <div class="col-xs-12 col-md-10 col-sm-6">
+        <div class="row ">
+          <div class="col-6 justify-content-start ">
             <h1 contenteditable="true">Sarah James</h1>
-            <h3>Full Stack Developer</h3>
+            <h3 style="color: white;">Full Stack Developer</h3>
             <h4>Los Angeles</h4>
           </div>
-          <div>
-            <h3>example@gmail.com</h3>
-            <h3 style="margin: 8px 0">+92234567890</h3>
-            <div>
-              <button type="button" class="btn btn-warning">Resume</button>
-
-              <button type="button" class="btn btn-warning">Publish</button>
+          <div class="col-6 allign_text">
+            <h3 style="color: white;" class="text-end">example@gmail.com</h3>
+            <h3 style="color: white;" class="text-end">+92234567890</h3>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-warning justify-content-end btn-sm">Resume</button>
             </div>
           </div>
-        </div>
-        <div class="about">
-          <h2 style="margin-top: 2rem;">About MySelf</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            voluptate, reiciendis perspiciatis praesentium nemo asperiores
-            blanditiis labore odio soluta quod quae sed, dicta suscipit, at
-            dolorum iure excepturi adipisci distinctio? reiciendis
-            perspiciatis praesentium nemo asperiores blanditiis labore odio
-            soluta quod quae sed, dicta suscipit, at dolorum iure excepturi
-            adipisci distinctio?
-          </p>
+          <div class="row about_data">
+            <h2 style="margin-top: 1.5rem;">About MySelf:</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              voluptate, reiciendis perspiciatis praesentium nemo asperiores
+              blanditiis labore odio soluta quod quae sed, dicta suscipit, at
+              dolorum iure excepturi adipisci distinctio? reiciendis
+              perspiciatis praesentium nemo asperiores blanditiis labore odio
+              soluta quod quae sed, dicta suscipit, at dolorum iure excepturi
+              adipisci distinctio?
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-
-    
-    <div class="container body">
+    <div id="row_body" class="row body">
       <!-- dropdown for Skills  -->
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
@@ -80,16 +75,16 @@
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-             
+
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
+                      <h3 class="card-title">Card title</h>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.</p>
 
                     </div>
                   </div>
@@ -99,7 +94,7 @@
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a short card.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
@@ -123,12 +118,12 @@
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
-              
+
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -142,7 +137,7 @@
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a short card.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
@@ -166,7 +161,7 @@
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingThree">
             <div class="accordion-body">
-           
+
               <div class="card">
                 <img src="https://codingyaar.com/wp-content/uploads/bootstrap-4-card-image-left-demo-image.jpg"
                   class="card-img-top" />
@@ -179,7 +174,7 @@
                     </div>
                     <div class="card_title col-6">
                       <h5 class="card-title">
-                        <h5>Card Title</h5>
+                        <h3>Card Title</h3>
                       </h5>
                     </div>
                   </div>
@@ -204,12 +199,12 @@
           <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingFour">
             <div class="accordion-body">
-             
+
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -222,7 +217,7 @@
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a short card.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
@@ -246,12 +241,12 @@
           <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
             aria-labelledby="panelsStayOpen-headingFive">
             <div class="accordion-body">
-             
+
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -264,7 +259,7 @@
                 <div class="col">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h3 class="card-title">Card title</h3>
                       <p class="card-text">This is a short card.</p>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
@@ -289,7 +284,9 @@
             aria-labelledby="panelsStayOpen-headingSix">
             <div class="accordion-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores illo molestiae. Quisquam, ratione deleniti quis voluptatum quia eveniet hic nostrum vero obcaecati recusandae minus dolorum aperiam consequuntur, esse corrupti.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores illo molestiae. Quisquam, ratione
+                deleniti quis voluptatum quia eveniet hic nostrum vero obcaecati recusandae minus dolorum aperiam
+                consequuntur, esse corrupti.
               </p>
             </div>
           </div>
@@ -298,5 +295,4 @@
     </div>
     <!-- accordion -->
 </body>
-
 </html>
