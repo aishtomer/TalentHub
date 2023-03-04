@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="/styles/editSkill.css">
+</head>
+
+<body>
+    <h1>Edit Project</h1>
+
+    <form action="" method="post" class="edit-skill-form" enctype="multipart/form-data">
+        <div class="edit-skill-form">
+            <label for="project-image">Project Image:</label>
+            <input type="file" id="project-image" name="projectImage" value="/images/project.jpeg">
+        </div>
+        <div class="edit-skill-form">
+            <label for="title">Project Title: </label>
+            <!-- Input field for the title of the article -->
+            <input type="text" name="title" id="title"
+                value="<%= typeof projectData != 'undefined' && projectData.title || '' %>" required>
+        </div>
+
+        <div class="edit-skill-form">
+            <label for="subtitle">Project Subtitle: </label>
+            <!-- Input field for the subtitle of the article -->
+            <input type="text" name="subtitle" id="subtitle"
+                value="<%= typeof projectData != 'undefined' && projectData.subtitle || ''%>" required>
+        </div>
+
+        <div class="edit-skill-form">
+            <label for="detail">Description: </label>
+            <!-- Text area for the content of the article -->
+            <textarea name="detail" id="detail"
+                required><%= typeof projectData != 'undefined' && projectData.detail || ''%></textarea>
+        </div>
+
+        <div class="edit-skill-form">
+            <label for="make_public">Make public</label>
+            <input type="checkbox" id="make_public" name="make_public" <% if (projectData.visibility==="public" ) {
+                %>checked<% } %>>
+        </div>
+
+        <div class="edit-skill-form">
+            <!-- Submit button to update the article -->
+            <input type="submit" value="Update">
+        </div>
+
+        <div class="edit-skill-form">
+            <!-- Submit button to update the article -->
+            <a href="/delete-project?project_id=<%=projectData.project_id%>">Delete</a>
+        </div>
+    </form>
+</body>
+
+</html>

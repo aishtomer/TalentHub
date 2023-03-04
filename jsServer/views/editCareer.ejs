@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="/styles/editSkill.css">
+    </head>
+    <body>
+        <h1>Edit Career Position</h1>
+
+        <form action="" method="post" class="edit-skill-form">
+            <div class="edit-skill-form">
+                <label for="career_name">Career Position: </label>
+                <!-- Input field for the title of the article -->
+                <input type="text" name="career_name"  id="career_name" value="<%= typeof careerData != 'undefined' && careerData.career_name || '' %>" required>
+            </div>
+
+            <div class="edit-skill-form">
+                <label for="summary">Summary: </label>
+                <!-- Text area for the content of the article -->
+                <textarea name="summary" id="summary" required><%= typeof careerData != 'undefined' && careerData.summary || ''%></textarea>
+            </div> 
+
+            <div class="edit-skill-form">
+                <label for="more_detail">More Details: </label>
+                <!-- Text area for the content of the article -->
+                <textarea name="more_detail" id="more_detail" required><%= typeof careerData != 'undefined' && careerData.more_detail || ''%></textarea>
+            </div> 
+
+            <div class="edit-skill-form">
+                <label for="make_public">Make public</label>
+                <input type="checkbox" id="make_public" name="make_public" <% if (careerData.visibility === "public") { %>checked<% } %>>
+            </div>
+
+            <div class="edit-skill-form">
+                <!-- Submit button to update the article -->
+                <input type="submit" value="Update">
+            </div>
+
+            <div class="edit-skill-form">
+                <!-- Submit button to update the article -->
+                <a href="/delete-career?career_id=<%=careerData.career_id%>">Delete</a>
+            </div>
+        </form>   
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="/styles/editSkill.css">
+    </head>
+    <body>
+        <h1>Edit Education</h1>
+
+        <form action="" method="post" class="edit-skill-form">
+            <div class="edit-skill-form">
+                <label for="education_name">Education: </label>
+                <!-- Input field for the title of the article -->
+                <input type="text" name="education_name"  id="education_name" value="<%= typeof educationData != 'undefined' && educationData.education_name || '' %>" required>
+            </div>
+
+            <div class="edit-skill-form">
+                <label for="summary">Summary: </label>
+                <!-- Text area for the content of the article -->
+                <textarea name="summary" id="summary" required><%= typeof educationData != 'undefined' && educationData.summary || ''%></textarea>
+            </div> 
+
+            <div class="edit-skill-form">
+                <label for="more_detail">More Details: </label>
+                <!-- Text area for the content of the article -->
+                <textarea name="more_detail" id="more_detail" required><%= typeof educationData != 'undefined' && educationData.more_detail || ''%></textarea>
+            </div> 
+
+            <div class="edit-skill-form">
+                <label for="make_public">Make public</label>
+                <input type="checkbox" id="make_public" name="make_public" <% if (educationData.visibility === "public") { %>checked<% } %>>
+            </div>
+
+            <div class="edit-skill-form">
+                <!-- Submit button to update the article -->
+                <input type="submit" value="Update">
+            </div>
+
+            <div class="edit-skill-form">
+                <!-- Submit button to update the article -->
+                <a href="/delete-education?education_id=<%=educationData.education_id%>">Delete</a>
+            </div>
+        </form>   
+    </body>
+</html>

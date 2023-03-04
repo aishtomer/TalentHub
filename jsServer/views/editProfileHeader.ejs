@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="/styles/editProfileHeader.css">
+    </head>
+    <body>
+        <h1>Edit Profile Header</h1>
+
+        <form action="" method="post" class="edit-header-form" enctype="multipart/form-data">
+            <div class="edit-header-form">
+                <label for="profile-image">Profile Image:</label>
+                <input type="file" id="profile-image" name="profileImage" value="/images/profile.png">
+            </div>
+            <div class="edit-header-form">
+                <label for="first_name">First Name: </label>
+                <!-- Input field for the title of the article -->
+                <input type="text" name="first_name"  id="first_name" value="<%= typeof headerData != 'undefined' && headerData.first_name || '' %>" required>
+            </div>
+
+            <div class="edit-header-form">
+                <label for="last_name">Last Name: </label>
+                <!-- Input field for the subtitle of the article -->
+                <input type="text" name="last_name"  id="last_name" value="<%= typeof headerData != 'undefined' && headerData.last_name || ''%>" required>
+            </div>
+
+            <div class="edit-header-form">
+                <label for="job_title">Job Title: </label>
+                <!-- Input field for the title of the article -->
+                <input type="text" name="job_title"  id="job_title" value="<%= typeof headerData != 'undefined' && headerData.job_title || '' %>" required>
+            </div>
+
+            <div class="edit-header-form">
+                <label for="current_location">Location: </label>
+                <!-- Input field for the subtitle of the article -->
+                <input type="text" name="current_location"  id="current_location" value="<%= typeof headerData != 'undefined' && headerData.current_location || ''%>" required>
+            </div>
+
+            <div class="edit-header-form">
+                <label for="phone_no">Phone Number: </label>
+                <!-- Input field for the title of the article -->
+                <input type="text" name="phone_no"  id="phone_no" value="<%= typeof headerData != 'undefined' && headerData.phone_no || '' %>" required>
+            </div>
+
+            <div class="edit-header-form">
+                <label for="about">About: </label>
+                <!-- Text area for the content of the article -->
+                <textarea name="about" id="about" required><%= typeof headerData != 'undefined' && headerData.about || ''%></textarea>
+            </div> 
+
+            <div class="edit-header-form">
+                <!-- Submit button to update the article -->
+                <input type="submit" value="Update">
+            </div>
+        </form>   
+    </body>
+</html>
