@@ -29,43 +29,45 @@
 
 <body>
   <div id="first_container" class="container">
-    <div class="blue">
-        <div class="icons">
-            <a href="/edit-header"><i class='fa-solid fa-pencil' style='color: white; margin-right: 1em; margin-top: 1em;'></i></a>
-        </div>
-    </div>
-    <div class="header">
-      <div class="img-container">
-        <img src="<%= profileDetailRows.image_path %>" alt="Image not found" />
+    <div id="row_head" class="row">
+      <div class="col-xs-12 col-sm-4 col-md-2">
+        <img class="rounded mx-auto d-block" src="<%= profileDetailRows.image_path %>" alt="Image not found" />
       </div>
-      <div class="content-container">
-        <div class="bio-data">
-          <div>
-            <h1 data-id="1"><%= profileDetailRows.first_name %> <%= profileDetailRows.last_name %></h1>
-            <h3 data-id="1"><%= profileDetailRows.job_title %></h3>
-            <h4 data-id="1"><%= profileDetailRows.current_location %></h4>
+      <div class="col-xs-12 col-md-10 col-sm-6">
+        <div class="row ">
+          <div class="col-6 justify-content-start ">
+            <h1 class="editable-heading" data-id="1">
+              <%= profileDetailRows.first_name %>
+                <%= profileDetailRows.last_name %>
+            </h1>
+            <h3 class="editable-heading" data-id="1" style="color: white;">
+              <%= profileDetailRows.job_title %>
+            </h3>
+            <h4 class="editable-heading" data-id="1">
+              <%= profileDetailRows.current_location %>
+            </h4>
           </div>
-          <div>
-            <h3 data-id="1"><%= profileDetailRows.email %></h3>
-            <h3 style="margin: 8px 0" data-id="1"><%= profileDetailRows.phone_no %></h3>
-            <div>
-                <!-- <button type="button" class="btn btn-warning btn-sm">Resume</button> -->
-                <button type="button" class="btn btn-warning btn-sm" style="display: none;">
-                    <form action="" method="POST">
-                        <input type="hidden" name="publication_status" value="<%= profileDetailRows.status %>">
-                        <button type="submit" class="btn btn-warning btn-sm"><%= profileDetailRows.status === 'public' ? 'Unpublish' : 'Publish' %></button>
-                    </form>    
-                </button>          
+          <div class="col-6 allign_text">
+            <h3 style="color: white;" class="text-end editable-heading" data-id="1">
+              <%= profileDetailRows.email %>
+            </h3>
+            <h3 style="color: white;" class="text-end editable-heading" data-id="1">
+              <%= profileDetailRows.phone_no %>
+            </h3>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-warning justify-content-end btn-sm">Resume</button>
             </div>
-          </div> 
-        </div>
-        <div class="about">
-          <h2 style="margin-top: 2rem;">About MySelf</h2>
-          <p data-id="1"><%= profileDetailRows.about %></p>
+          </div>
+          <div class="row about_data">
+            <h2 style="margin-top: 1.5rem;">About MySelf:</h2>
+            <p class="editable-heading" data-id="1">
+              <%= profileDetailRows.status==='public' ? 'Unpublish' : 'Publish' %>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container body">
+    <div id="row_body" class="row body">
       <!-- dropdown for Skills  -->
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
@@ -80,34 +82,43 @@
             aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
               <div class="icons">
-                <a href="/add-skill"><a href="/add-skill"><i class="fa-solid fa-plus" style="margin-bottom: 2em; margin-right: 0.3em;"></i></a></a>
+                <a href="/add-skill"><a href="/add-skill"><i class="fa-solid fa-plus"
+                      style="margin-bottom: 2em; margin-right: 0.3em;"></i></a></a>
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" style="display: none;">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title " data-id="1"></h5>
-                            <p class="card-text " data-id="1"></p>
-                            <p class="card-text " data-id="1"></p>
-                        </div>
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title " data-id="1"></h5>
+                      <p class="card-text " data-id="1"></p>
+                      <p class="card-text " data-id="1"></p>
                     </div>
+                  </div>
                 </div>
 
                 <% skillDetailRows.forEach(function(row) { %>
-                <div class="col">
+                  <div class="col">
                     <div class="card h-100">
-                        <div class="card-body">
-                            <div class="icons">
-                                <a href="/edit-skill?skill_id=<%=row.skill_id %>"><i class="fa-solid fa-pencil" style="margin-right: 0.7em;"></i></a>
-                                <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>" aria-hidden="true"></i>
-                            </div>
-                            <h5 class="card-title " data-id="1"><%= row.skill_name %></h5>
-                            <p class="card-text " data-id="1"><%= row.summary %></p>
-                            <p class="card-text " data-id="1"><%= row.more_detail %></p>
+                      <div class="card-body">
+                        <div class="icons">
+                          <a href="/edit-skill?skill_id=<%=row.skill_id %>"><i class="fa-solid fa-pencil"
+                              style="margin-right: 0.7em;"></i></a>
+                          <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>"
+                            aria-hidden="true"></i>
                         </div>
+                        <h5 class="card-title " data-id="1">
+                          <%= row.skill_name %>
+                        </h5>
+                        <p class="card-text " data-id="1">
+                          <%= row.summary %>
+                        </p>
+                        <p class="card-text " data-id="1">
+                          <%= row.more_detail %>
+                        </p>
+                      </div>
                     </div>
-                </div>
-                <% }); %>
+                  </div>
+                  <% }); %>
               </div>
             </div>
           </div>
@@ -124,34 +135,43 @@
             aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
               <div class="icons">
-                <a href="/add-award"><i class="fa-solid fa-plus" style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
+                <a href="/add-award"><i class="fa-solid fa-plus"
+                    style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col" style="display: none;">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title " data-id="1"></h5>
-                                <p class="card-text " data-id="1"></p>
-                                <p class="card-text " data-id="1"></p>
-                            </div>
-                        </div>
+                <div class="col" style="display: none;">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title " data-id="1"></h5>
+                      <p class="card-text " data-id="1"></p>
+                      <p class="card-text " data-id="1"></p>
                     </div>
+                  </div>
+                </div>
 
-                    <% awardDetailRows.forEach(function(row) { %>
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="icons">
-                                        <a href="/edit-award?award_id=<%=row.award_id %>"><i class="fa-solid fa-pencil" style="margin-right: 0.7em;"></i></a>
-                                        <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>" aria-hidden="true"></i>
-                                    </div>
-                                    <h5 class="card-title " data-id="1"><%= row.award_name %></h5>
-                                    <p class="card-text " data-id="1"><%= row.summary %></p>
-                                    <p class="card-text " data-id="1"><%= row.more_detail %></p>
-                                </div>
-                            </div>
+                <% awardDetailRows.forEach(function(row) { %>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div class="icons">
+                          <a href="/edit-award?award_id=<%=row.award_id %>"><i class="fa-solid fa-pencil"
+                              style="margin-right: 0.7em;"></i></a>
+                          <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>"
+                            aria-hidden="true"></i>
                         </div>
-                    <% }); %>
+                        <h5 class="card-title " data-id="1">
+                          <%= row.award_name %>
+                        </h5>
+                        <p class="card-text " data-id="1">
+                          <%= row.summary %>
+                        </p>
+                        <p class="card-text " data-id="1">
+                          <%= row.more_detail %>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <% }); %>
               </div>
             </div>
           </div>
@@ -168,35 +188,42 @@
             aria-labelledby="panelsStayOpen-headingThree">
             <div class="accordion-body">
               <div class="icons">
-                <a href="/add-project"><i class="fa-solid fa-plus" style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
+                <a href="/add-project"><i class="fa-solid fa-plus"
+                    style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
               </div>
 
-                <% projectDetailRows.forEach(function(row) { %>
-                    <div class="card">
-                        <img src="<%= row.image_path %>" class="card-img-top" />
-                        <div class="card-body">
-                            <div class="icons">
-                                <a href="/edit-project?project_id=<%=row.project_id %>"><i class="fa-solid fa-pencil" style="margin-right: 0.7em;"></i></a>
-                                <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>" aria-hidden="true"></i>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                <h5 class="card-title">
-                                    <h2 data-id="1"><%= row.title %></h2>
-                                </h5>
-                                </div>
-                                <div class="card_title col-6">
-                                <h5 class="card-title">
-                                    <h5 data-id="1"></h5>
-                                </h5>
-                                </div>
-                            </div>
-                            <h5 class="card-title " data-id="1"><%= row.subtitle %></h5>
-                            <p class="card-text " data-id="1">
-                                <%= row.detail %>
-                            </p>
-                        </div>
+              <% projectDetailRows.forEach(function(row) { %>
+                <div class="card">
+                  <img src="<%= row.image_path %>" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="icons">
+                      <a href="/edit-project?project_id=<%=row.project_id %>"><i class="fa-solid fa-pencil"
+                          style="margin-right: 0.7em;"></i></a>
+                      <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>"
+                        aria-hidden="true"></i>
                     </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <h5 class="card-title">
+                          <h2 data-id="1">
+                            <%= row.title %>
+                          </h2>
+                        </h5>
+                      </div>
+                      <div class="card_title col-6">
+                        <h5 class="card-title">
+                          <h5 data-id="1"></h5>
+                        </h5>
+                      </div>
+                    </div>
+                    <h5 class="card-title " data-id="1">
+                      <%= row.subtitle %>
+                    </h5>
+                    <p class="card-text " data-id="1">
+                      <%= row.detail %>
+                    </p>
+                  </div>
+                </div>
                 <% }); %>
             </div>
           </div>
@@ -213,33 +240,42 @@
             aria-labelledby="panelsStayOpen-headingFour">
             <div class="accordion-body">
               <div class="icons">
-                <a href="/add-education"><i class="fa-solid fa-plus" style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
+                <a href="/add-education"><i class="fa-solid fa-plus"
+                    style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" style="display: none;">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title " data-id="1"></h5>
-                            <p class="card-text " data-id="1"></p>
-                            <p class="card-text " data-id="1"></p>
-                        </div>
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title " data-id="1"></h5>
+                      <p class="card-text " data-id="1"></p>
+                      <p class="card-text " data-id="1"></p>
                     </div>
+                  </div>
                 </div>
                 <% educationDetailRows.forEach(function(row) { %>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="icons">
-                                    <a href="/edit-education?education_id=<%=row.education_id %>"><i class="fa-solid fa-pencil" style="margin-right: 0.7em;"></i></a>
-                                    <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>" aria-hidden="true"></i>
-                                </div>
-                                <h5 class="card-title " data-id="1"><%= row.education_name %></h5>
-                                <p class="card-text " data-id="1"><%= row.summary %></p>
-                                <p class="card-text " data-id="1"><%= row.more_detail %></p>
-                            </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div class="icons">
+                          <a href="/edit-education?education_id=<%=row.education_id %>"><i class="fa-solid fa-pencil"
+                              style="margin-right: 0.7em;"></i></a>
+                          <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>"
+                            aria-hidden="true"></i>
                         </div>
+                        <h5 class="card-title " data-id="1">
+                          <%= row.education_name %>
+                        </h5>
+                        <p class="card-text " data-id="1">
+                          <%= row.summary %>
+                        </p>
+                        <p class="card-text " data-id="1">
+                          <%= row.more_detail %>
+                        </p>
+                      </div>
                     </div>
-                <% }); %>
+                  </div>
+                  <% }); %>
 
               </div>
             </div>
@@ -257,33 +293,42 @@
             aria-labelledby="panelsStayOpen-headingFive">
             <div class="accordion-body">
               <div class="icons">
-                <a href="/add-career"><i class="fa-solid fa-plus" style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
+                <a href="/add-career"><i class="fa-solid fa-plus"
+                    style="margin-bottom: 2em; margin-right: 0.3em;"></i></a>
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" style="display: none;">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title " data-id="1"></h5>
-                            <p class="card-text " data-id="1"></p>
-                            <p class="card-text " data-id="1"></p>
-                        </div>
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title " data-id="1"></h5>
+                      <p class="card-text " data-id="1"></p>
+                      <p class="card-text " data-id="1"></p>
                     </div>
+                  </div>
                 </div>
                 <% careerDetailRows.forEach(function(row) { %>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <div class="icons">
-                                    <a href="/edit-career?career_id=<%=row.career_id %>"><i class="fa-solid fa-pencil" style="margin-right: 0.7em;"></i></a>
-                                    <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>" aria-hidden="true"></i>
-                                </div>
-                                <h5 class="card-title " data-id="1"><%= row.career_name %></h5>
-                                <p class="card-text " data-id="1"><%= row.summary %></p>
-                                <p class="card-text " data-id="1"><%= row.more_detail %></p>
-                            </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div class="icons">
+                          <a href="/edit-career?career_id=<%=row.career_id %>"><i class="fa-solid fa-pencil"
+                              style="margin-right: 0.7em;"></i></a>
+                          <i class="fa fa-eye<% if (row.visibility !== 'public') { %> visibility-off<% } %>"
+                            aria-hidden="true"></i>
                         </div>
+                        <h5 class="card-title " data-id="1">
+                          <%= row.career_name %>
+                        </h5>
+                        <p class="card-text " data-id="1">
+                          <%= row.summary %>
+                        </p>
+                        <p class="card-text " data-id="1">
+                          <%= row.more_detail %>
+                        </p>
+                      </div>
                     </div>
-                <% }); %>
+                  </div>
+                  <% }); %>
 
               </div>
             </div>
@@ -294,7 +339,8 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true"
               aria-controls="panelsStayOpen-collapseSix">
-              <h2>More About <%= profileDetailRows.first_name %></h2>
+              <h2>More About <%= profileDetailRows.first_name %>
+              </h2>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
