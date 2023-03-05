@@ -4,46 +4,52 @@ const router = express.Router(); // create an instance of express router
 const assert = require('assert'); // import assert package
 const session = require('express-session'); // import express-session package
 
-// get request to edit-draft page
-router.get("/", (req, res) => {
-    // get the article_id from the url query
-    let education_id = req.query.education_id;
-    req.session.education_id = education_id;
 
-    // query the articleRecords table for the row where article_id = article_id
+// Route to render the page to edit education details
+router.get("/", (req, res) => {
+
+    let education_id = req.query.education_id;  // Get the education_id from the query string
+    req.session.education_id = education_id;    // Store education_id in session
+
+    // Retrieve education data from the database
     global.db.get("SELECT * FROM educationDetails WHERE education_id = ?", [education_id], function (err, row) {
         if (err) {
             console.log(err);
         } else {
-            // render the edit-draft page and passing the data of the selected article
+            // Render editEducation page with educationData object
             res.render("editEducation", {educationData: row});
         }
     });
 });
 
-// post request to edit-draft page
+
+// Route to update education details in the database
 router.post("/", (req, res) => {
-    // get the article_id from the session
+
+    // Retrieve education_id from session
     let education_id = req.session.education_id;
 
-    // get title, subtitle and content of article from request body
+    // Retrieve education details from request body
     const education_name = req.body.education_name;
     const summary = req.body.summary;
     const more_detail = req.body.more_detail;
     const make_public = req.body.make_public;
+
+    // Determine visibility based on make_public field
     if (make_public === 'on'){
         var visible = "public";
     } else {
         var visible = "private";
     }
-    console.log(req.body);
-    // update the row in the articleRecords table where article_id = article_id with the new provided data
+    
+    // Update education details in database
     global.db.run("UPDATE educationDetails SET education_name = ?, summary = ?, more_detail = ?, visibility = ? WHERE education_id = ?", [education_name, summary, more_detail, visible, education_id], function (err) {
         if (err) {
             next(err);
         }
     });
-    // redirect to author-home page
+    
+    // Redirect to edit page
     res.redirect('edit');
 });
 

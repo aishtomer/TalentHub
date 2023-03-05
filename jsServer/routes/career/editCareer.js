@@ -4,46 +4,50 @@ const router = express.Router(); // create an instance of express router
 const assert = require('assert'); // import assert package
 const session = require('express-session'); // import express-session package
 
-// get request to edit-draft page
-router.get("/", (req, res) => {
-    // get the article_id from the url query
-    let career_id = req.query.career_id;
-    req.session.career_id = career_id;
 
-    // query the articleRecords table for the row where article_id = article_id
+router.get("/", (req, res) => {
+
+    let career_id = req.query.career_id;    // get the career_id from the query string
+    req.session.career_id = career_id;  // store the career_id in the session object
+
+    // fetch the data of a specific career from the database
     global.db.get("SELECT * FROM careerDetails WHERE career_id = ?", [career_id], function (err, row) {
         if (err) {
             console.log(err);
         } else {
-            // render the edit-draft page and passing the data of the selected article
+            // render the editCareer template with the fetched data
             res.render("editCareer", {careerData: row});
         }
     });
 });
 
-// post request to edit-draft page
+
 router.post("/", (req, res) => {
-    // get the article_id from the session
+
+    // retrieve the career_id from the session object
     let career_id = req.session.career_id;
 
-    // get title, subtitle and content of article from request body
+    // retrieve form data
     const career_name = req.body.career_name;
     const summary = req.body.summary;
     const more_detail = req.body.more_detail;
     const make_public = req.body.make_public;
+
+    // set visibility based on the value of make_public
     if (make_public === 'on'){
         var visible = "public";
     } else {
         var visible = "private";
     }
 
-    // update the row in the articleRecords table where article_id = article_id with the new provided data
+    // update the career data in the database
     global.db.run("UPDATE careerDetails SET career_name = ?, summary = ?, more_detail = ?, visibility = ? WHERE career_id = ?", [career_name, summary, more_detail, visible, career_id], function (err) {
         if (err) {
             next(err);
         }
     });
-    // redirect to author-home page
+
+    // redirect to the edit page
     res.redirect('edit');
 });
 

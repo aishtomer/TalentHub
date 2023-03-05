@@ -4,19 +4,21 @@ const router = express.Router(); // create an instance of express router
 const assert = require('assert'); // import assert package
 const session = require('express-session'); // import express-session package
 
-// GET request to delete a draft
+// Set up a route to handle GET requests
 router.get("/", (req, res) => {
-    // get the skill_id from the query string
+
+    // Retrieve skill_id from query parameters
     let skill_id = req.query.skill_id;
 
-    // delete the row from the articleRecords table where skill_id = skill_id
+    // Delete the skill from the database using the skill_id
     global.db.run("DELETE FROM skillDetails WHERE skill_id = ?", [skill_id], function (err) {
         if (err) {
             console.log(err);
             next(err);
         }
     });
-    //redirect to the author-home page
+
+    // Redirect the user to the edit page
     res.redirect('edit');
 });
 

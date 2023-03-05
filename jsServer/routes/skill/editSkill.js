@@ -4,46 +4,51 @@ const router = express.Router(); // create an instance of express router
 const assert = require('assert'); // import assert package
 const session = require('express-session'); // import express-session package
 
-// get request to edit-draft page
+// Handle GET requests
 router.get("/", (req, res) => {
-    // get the article_id from the url query
-    let skill_id = req.query.skill_id;
-    req.session.skill_id = skill_id;
 
-    // query the articleRecords table for the row where article_id = article_id
+    let skill_id = req.query.skill_id;  // Get skill_id from query string
+    req.session.skill_id = skill_id;    // Store skill_id in session
+
+    // Get skill details from the database
     global.db.get("SELECT * FROM skillDetails WHERE skill_id = ?", [skill_id], function (err, row) {
         if (err) {
             console.log(err);
         } else {
-            // render the edit-draft page and passing the data of the selected article
+            // Render the editSkills template and pass the skill data to it
             res.render("editSkills", {skillData: row});
         }
     });
 });
 
-// post request to edit-draft page
+
+// Handle POST requests
 router.post("/", (req, res) => {
-    // get the article_id from the session
+
+    // Get skill_id from session
     let skill_id = req.session.skill_id;
 
-    // get title, subtitle and content of article from request body
+    // Get skill details from the request body
     const skill_name = req.body.skill_name;
     const summary = req.body.summary;
     const more_detail = req.body.more_detail;
     const make_public = req.body.make_public;
+
+    // Determine skill visibility based on the value of the make_public checkbox
     if (make_public === 'on'){
         var visible = "public";
     } else {
         var visible = "private";
     }
-    console.log(req.body);
-    // update the row in the articleRecords table where article_id = article_id with the new provided data
+    
+    // Update the skill details in the database
     global.db.run("UPDATE skillDetails SET skill_name = ?, summary = ?, more_detail = ?, visibility = ? WHERE skill_id = ?", [skill_name, summary, more_detail, visible, skill_id], function (err) {
         if (err) {
             next(err);
         }
     });
-    // redirect to author-home page
+
+    // Redirect to the edit page
     res.redirect('edit');
 });
 

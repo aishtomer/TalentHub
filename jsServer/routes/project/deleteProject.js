@@ -4,19 +4,21 @@ const router = express.Router(); // create an instance of express router
 const assert = require('assert'); // import assert package
 const session = require('express-session'); // import express-session package
 
-// GET request to delete a draft
+
+// Handle GET request
 router.get("/", (req, res) => {
-    // get the project_id from the query string
+    // get the project ID from the request's query parameters
     let project_id = req.query.project_id;
 
-    // delete the row from the articleRecords table where project_id = project_id
+    // delete the project from the database using its ID
     global.db.run("DELETE FROM projectDetails WHERE project_id = ?", [project_id], function (err) {
         if (err) {
             console.log(err);
             next(err);
         }
     });
-    //redirect to the author-home page
+
+    // redirect to the edit page
     res.redirect('edit');
 });
 
