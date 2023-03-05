@@ -32,6 +32,12 @@ global.db = new sqlite3.Database('../database.db',function(err){
 
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
+app.set('views', [  __dirname + '/views', 
+                    __dirname + '/views/awards',
+                    __dirname + '/views/career',
+                    __dirname + '/views/education',
+                    __dirname + '/views/project',
+                    __dirname + '/views/skill']);
 
 /**---------------------------------------------------------------------------------------- */
 /** Import Various Routes serving the application functionality */
@@ -46,49 +52,49 @@ app.use('/edit', editProfileRoute);
 const editProfileHeaderRoute= require('./routes/editProfileHeader');
 app.use('/edit-header', editProfileHeaderRoute);
 
-const editSkillRoute= require('./routes/editSkill');
+const editSkillRoute= require('./routes/skill/editSkill');
 app.use('/edit-skill', editSkillRoute);
 
-const addSkillRoute= require('./routes/addSkill');
+const addSkillRoute= require('./routes/skill/addSkill');
 app.use('/add-skill', addSkillRoute);
 
-const deleteSkillRoute= require('./routes/deleteSkill');
+const deleteSkillRoute= require('./routes/skill/deleteSkill');
 app.use('/delete-skill', deleteSkillRoute);
 
-const editAwardRoute= require('./routes/editAward');
+const editAwardRoute= require('./routes/award/editAward');
 app.use('/edit-award', editAwardRoute);
 
-const addAwardRoute= require('./routes/addAward');
+const addAwardRoute= require('./routes/award/addAward');
 app.use('/add-award', addAwardRoute);
 
-const deleteAwardRoute= require('./routes/deleteAward');
+const deleteAwardRoute= require('./routes/award/deleteAward');
 app.use('/delete-award', deleteAwardRoute);
 
-const editProjectRoute= require('./routes/editProject');
+const editProjectRoute= require('./routes/project/editProject');
 app.use('/edit-project', editProjectRoute);
 
-const addProjectRoute= require('./routes/addProject');
+const addProjectRoute= require('./routes/project/addProject');
 app.use('/add-project', addProjectRoute);
 
-const deleteProjectRoute= require('./routes/deleteProject');
+const deleteProjectRoute= require('./routes/project/deleteProject');
 app.use('/delete-project', deleteProjectRoute);
 
-const editEducationRoute= require('./routes/editEducation');
+const editEducationRoute= require('./routes/education/editEducation');
 app.use('/edit-education', editEducationRoute);
 
-const addEducationRoute= require('./routes/addEducation');
+const addEducationRoute= require('./routes/education/addEducation');
 app.use('/add-education', addEducationRoute);
 
-const deleteEducationRoute= require('./routes/deleteEducation');
+const deleteEducationRoute= require('./routes/education/deleteEducation');
 app.use('/delete-education', deleteEducationRoute);
 
-const editCareerRoute= require('./routes/editCareer');
+const editCareerRoute= require('./routes/career/editCareer');
 app.use('/edit-career', editCareerRoute);
 
-const addCareerRoute= require('./routes/addCareer');
+const addCareerRoute= require('./routes/career/addCareer');
 app.use('/add-career', addCareerRoute);
 
-const deleteCareerRoute= require('./routes/deleteCareer');
+const deleteCareerRoute= require('./routes/career/deleteCareer');
 app.use('/delete-career', deleteCareerRoute);
 
 const editMoreAboutRoute= require('./routes/editMoreAbout');

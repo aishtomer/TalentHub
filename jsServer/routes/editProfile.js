@@ -56,7 +56,6 @@ router.post('/', (req, res) => {
     var user_id = 1;
     // Extract the publication status from the request body
     const publication_status = req.body.publication_status;
-    console.log(req.body);
 
     // Toggle the publication status in the database
     const newStatus = publication_status === 'public' ? 'private' : 'public';
