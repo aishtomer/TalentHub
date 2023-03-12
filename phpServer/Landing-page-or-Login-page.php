@@ -75,13 +75,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-                <a href="/phpServer/public/views/About.html" class="About Button u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-2">About<br>
+                <a href="/phpServer/About.php" class="About Button u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-2">About<br>
                 </a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                <a href="Landing-page-or-Login-page.html" class="Button My Profile u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-3">My Profile</a>
+                <a href="#" class="Button My Profile u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-3"></a>
               </div>
             </div>
           </div>
