@@ -54,14 +54,14 @@
             <svg class="u-svg-content" viewBox="0 0 160 140" x="0px" y="0px" id="svg-5752" style="enable-background:new 0 0 160 140;"><path d="M90,45H0v50h90v45l70-70L90,0V45z"></path></svg>
           </div>
         </div>
-        <img class="fireWork1 u-image u-image-contain u-image-default u-image-1" src="/images/ff907ea8ab2cb66d06a8914afde5bbe27afd246663b6cecba405f40d4a4eb4aa35906f81b27436394423bb425b86180645d128c952e58d9d50c413_1280.png" alt="" data-image-width="914" data-image-height="1280">
+        <img class="fireWork1 u-image u-image-contain u-image-default u-image-1" src="/phpServer/images/ff907ea8ab2cb66d06a8914afde5bbe27afd246663b6cecba405f40d4a4eb4aa35906f81b27436394423bb425b86180645d128c952e58d9d50c413_1280.png" alt="" data-image-width="914" data-image-height="1280">
         <h2 class="Done u-align-center u-custom-font u-text u-text-7">
           <span style="font-weight: 700;">
             <span class="u-text-custom-color-1">Cheers !</span>
             <br>
           </span>
         </h2>
-        <img class="fireWork2 u-image u-image-contain u-image-default u-image-2" src="/images/ff907ea8ab2cb66d06a8914afde5bbe27afd246663b6cecba405f40d4a4eb4aa35906f81b27436394423bb425b86180645d128c952e58d9d50c413_1280.png" alt="" data-image-width="914" data-image-height="1280">
+        <img class="fireWork2 u-image u-image-contain u-image-default u-image-2" src="/phpServer/images/ff907ea8ab2cb66d06a8914afde5bbe27afd246663b6cecba405f40d4a4eb4aa35906f81b27436394423bb425b86180645d128c952e58d9d50c413_1280.png" alt="" data-image-width="914" data-image-height="1280">
         <h2 class="u-align-center u-custom-font u-text u-text-8"> You're shared your profile in our&nbsp;<br>Home page !
         </h2>
       </div>
