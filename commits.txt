@@ -1,0 +1,873 @@
+commit a1b7aac5f53c32c14605e754360fb35157718225
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Mar 12 18:03:24 2023 +0530
+
+    commit
+
+commit e8362a919c098eeae8602bba51e487681a3e4601
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:45:58 2023 +0800
+
+    Add files via upload
+
+commit 8640c40c29e118f662b344b9714533cdd0b649bb
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:36:16 2023 +0800
+
+    Update About.php
+
+commit b7800d4ed982aed6bb99c8efea3190e2d07310d0
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:30:51 2023 +0800
+
+    Update header.php
+
+commit 09874d1ffc49db32af85dea87388577a3490de1a
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:30:13 2023 +0800
+
+    Update Sign-Up.php
+
+commit b42fd48b5d2e6316755833c466659359d1beb463
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:29:40 2023 +0800
+
+    Update Landing-page-or-Login-page.php
+
+commit a8de5b3d1d175ad4da6ab480dec1f5b13eefafa4
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:28:58 2023 +0800
+
+    Add files via upload
+
+commit 8e6e90ed00b400cae1c88fdd393e8e0ccc58c1c5
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:17:07 2023 +0800
+
+    Update About.html
+
+commit 520f749ae6497d6ca35a12d0b57be6d70fe90000
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:16:04 2023 +0800
+
+    Update header.php
+
+commit c2120986e6c49cc370d16d7ec574570be8be9cbd
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:15:41 2023 +0800
+
+    Update Sign-Up.php
+
+commit 53dd3e8cafb24c2bbfc5f4d73ad158cce17816e0
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:14:42 2023 +0800
+
+    Update Landing-page-or-Login-page.php
+
+commit 7963deac3dc0b8dca5390b72c31b84ec61f8d4b6
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:04:31 2023 +0800
+
+    Add files via upload
+
+commit b880e2e867f8e6b22e65a76d68386b364967475a
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:03:39 2023 +0800
+
+    Add files via upload
+
+commit 8023725103a597b9c105622837262f5c4aa6fe9e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:58 2023 +0800
+
+    Delete search.php
+
+commit 1c73f17dbcb707860518b5f902457bd142b98537
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:52 2023 +0800
+
+    Delete viewProfile.php
+
+commit ba497ec004e25a3703f99b7d95ccd15ead567468
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:45 2023 +0800
+
+    Delete logOut.php
+
+commit d6ab11fab8c5d4b5c81de55afe972c4fdddd4dca
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:35 2023 +0800
+
+    Delete header.php
+
+commit 8e44debff16ffea43595dc215de33d31a8c947f5
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:27 2023 +0800
+
+    Delete get-more-data.php
+
+commit 051d410c9249bfd0d06abbcbd9d9ccd81ea23a32
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:19 2023 +0800
+
+    Delete editSkill.php
+
+commit 90f61748ba9fd09bb1786eabaa33822ce1eaa8bf
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:12 2023 +0800
+
+    Delete editProject.php
+
+commit 0512b3ba5030395207383847c9b60112f43c21b1
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:02:04 2023 +0800
+
+    Delete editProfileHeader.php
+
+commit 7eae984f22c5b3469161cbe82915e021a97a7ae0
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:56 2023 +0800
+
+    Delete editProfile.php
+
+commit a9c538c454f2746ddbdbbb6af45fb791282a92bf
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:49 2023 +0800
+
+    Delete editEducation.php
+
+commit 1362d74731627f3aab1c1cb8fd9843bc0569af83
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:42 2023 +0800
+
+    Delete editCareer.php
+
+commit 2d5846e7d3765ab9737ad637ead72c71bcc29165
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:34 2023 +0800
+
+    Delete editAward.php
+
+commit 84420afa300f023abb6c767d8afc45c6c4889cfd
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:20 2023 +0800
+
+    Delete editAbout.php
+
+commit 18b1e33dd45cfeee517c1902fb219faacbd13743
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:13 2023 +0800
+
+    Delete deleteSkill.php
+
+commit cdf984263f534c1dec595c092442d52a93efd23c
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:01:05 2023 +0800
+
+    Delete deleteProject.php
+
+commit f659cb7634bb46c0afda7446778b35d76cdee785
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:58 2023 +0800
+
+    Delete deleteEducation.php
+
+commit a093ef3f01f02adb6c99c9fdae4c95bfd46dbc49
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:49 2023 +0800
+
+    Delete deleteCareer.php
+
+commit 13d7fe779f343c938bc0b520cadfbf7bbeb5ac1a
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:42 2023 +0800
+
+    Delete deleteAward.php
+
+commit 51fe50358b25d78aee5f147a052cff5414470a7d
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:24 2023 +0800
+
+    Delete conn.php
+
+commit c64fbc7ad908aad89ead77b07a93b1dd01034eb5
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:16 2023 +0800
+
+    Delete checkData.php
+
+commit 4ba9c99800f766a7a44048b99749375ccbaf8e03
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 15:00:05 2023 +0800
+
+    Delete addSkill.php
+
+commit d6d0332302281f7cb0373bc64c41cc9236d16e3c
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:57 2023 +0800
+
+    Delete addProject.php
+
+commit e7f04838606195bbbfdb0d2856e41cc8c7da948e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:48 2023 +0800
+
+    Delete addProfile.php
+
+commit 42c37ce083b704220fa114c518de90668c67f833
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:42 2023 +0800
+
+    Delete addEducation.php
+
+commit e0b08eed29d52d502de869c20c657072a537a4a6
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:33 2023 +0800
+
+    Delete addCareer.php
+
+commit a083713198c958c1295b8f1fa8d2f4daa09925ed
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:26 2023 +0800
+
+    Delete addAward.php
+
+commit 459d10c1a0593c438a6393fa0b741a351c244d40
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:18 2023 +0800
+
+    Delete Sign-Up.php
+
+commit de265c168ccb91a493dc29eb18e9bb7641b8ec1d
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:59:06 2023 +0800
+
+    Delete Landing-page-or-Login-page.php
+
+commit 0b7934e6786846e900cf66f25c1e08b1655cdfc4
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:58:19 2023 +0800
+
+    Delete Home-page.php
+
+commit 83304fdeeca70d6bd03315d4428f35b941dacdc8
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:57:34 2023 +0800
+
+    Add files via upload
+
+commit 11fffd274b2bf8282d01e6e37d76c7442743485e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:51:54 2023 +0800
+
+    Delete test
+
+commit cc0a1d2cd53f05df7c2878cdb2a74b4ecf11d07a
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:51:07 2023 +0800
+
+    Add files via upload
+
+commit b2e47545e41072533b2a3910746432060798e1bb
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:50:51 2023 +0800
+
+    Create test
+
+commit bf4b26e4eb8aeda20159b91fdabc7003265b57d0
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:49:39 2023 +0800
+
+    Delete test
+
+commit 3543e6b0f277cc1fd30b285a0aa8ed4e90c37f3c
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:49:22 2023 +0800
+
+    Add files via upload
+
+commit 22a008f52ddf2acca2eb0abfd45f85a5f5ed3cb4
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:49:11 2023 +0800
+
+    Create test
+
+commit 9436d0ff971ac83356a4814b627c763e5da856f3
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:47:00 2023 +0800
+
+    Delete phpServer/views directory
+
+commit 6897ab1030d3e33a924ff242577dcaccbfd9cd75
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:46:23 2023 +0800
+
+    Add files via upload
+
+commit 2f4864c87db60ab195776576d4f7baf13ddcc4a3
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:45:59 2023 +0800
+
+    Create About.html
+
+commit 628dc580e3c73eaade009a4ad4b9697870537b88
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:44:46 2023 +0800
+
+    Delete js
+
+commit b96573d935a2722c4c4983da5d9544defee1d6b4
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:44:25 2023 +0800
+
+    Delete phpServer/styles directory
+
+commit 3e45be1cb8a5376cda4d4bc3746c36ad9ca2297e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:44:15 2023 +0800
+
+    Delete phpServer/scripts directory
+
+commit a2d569e8096e2b9e9575c3652f037bbe79789f55
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:42:52 2023 +0800
+
+    Add files via upload
+
+commit f73105825d58f29d4fcf120f0289aa9f569b135e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:41:42 2023 +0800
+
+    Add files via upload
+
+commit 8dc61a0b26cc0741aa27274ac6977e8a80c1789a
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:40:00 2023 +0800
+
+    Create js
+
+commit 8009bbfca1ee3535ada3b025d4eeab5f1fa28fac
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:39:21 2023 +0800
+
+    Add files via upload
+
+commit f3bd9fa9ee1abe6379816becfe8324a7633e5e3c
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:38:28 2023 +0800
+
+    Create .DS_Store
+
+commit cf6ac1d3db063024d6127c174993c8aef695db7c
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:37:49 2023 +0800
+
+    Delete .DS_Store
+
+commit 0562215fa85c9decbcda4b1284f50d996f2a94f4
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:37:36 2023 +0800
+
+    Delete .DC_Store
+
+commit d6bc716874faa9aea3de723914346f489c2b4a87
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:36:43 2023 +0800
+
+    Create .DS_Store
+
+commit 1a2fbd44adc6fada6d70bcdaab493b2c0a388f26
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:35:20 2023 +0800
+
+    Create .DC_Store
+
+commit ef77d144a27d4dd50100764c30c5d37290ab6206
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:32:31 2023 +0800
+
+    Delete viewProfile.html
+
+commit 0b69b3a97451535f5d77dbc43ecbfc8668a66bdb
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:32:24 2023 +0800
+
+    Delete home.html
+
+commit 74b8255f7d2a45495a6e96899271a8e230d5cb4d
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:32:16 2023 +0800
+
+    Delete editProfile.html
+
+commit 31c1c44b161eb3bed6c09b82054c29ffb3dcd5d2
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:32:06 2023 +0800
+
+    Delete Template.html
+
+commit 373442c6f79bd794db300a32e62218e9d897a9f3
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:31:52 2023 +0800
+
+    Delete Sign-Up.html
+
+commit de0842d2eb48dd94c99a879dfde9a4fc38234fa7
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:31:41 2023 +0800
+
+    Delete About.html
+
+commit 7284d81ad0d0ca5ad03cbdb591f90a348cf12980
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:31:30 2023 +0800
+
+    Delete Landing-page-or-Login-page.html
+
+commit 05d621828eb738ba2779ff04e045578543d71be6
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:30:53 2023 +0800
+
+    Rename test to .DS_Store
+
+commit 72988dd38dc609c7449ad9142bbec6989c475440
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:30:21 2023 +0800
+
+    Add files via upload
+
+commit 59851eb695f899e55349a52145970eac6fcf663e
+Author: TehCK <70246626+TehCK@users.noreply.github.com>
+Date:   Sun Mar 12 14:29:54 2023 +0800
+
+    Create test
+
+commit a3ac6c9a3cb442e4401ff94617aa91f2fa353834
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Thu Mar 9 14:09:17 2023 +0800
+
+    Update home.html
+    
+    Add on a line of code : <?php require "header.php" ?>
+    to get the header
+
+commit 3bb7da80c1d9cf540b668acff47e7d6248db81cd
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Thu Mar 9 14:08:21 2023 +0800
+
+    Update editProfile.html
+    
+    add on a line of code :<?php require "header.php" ?>
+    to get the header
+
+commit 88c6b34adb0460d18e2904e0cd1861dcc6bf53c6
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Mon Mar 6 01:29:28 2023 +0500
+
+    Responsive Design in Node.js
+    
+    Added the resposnive deisgn in node.js ejs files
+
+commit 9ba459ddc5e7686a7ed7ccac5f8167600c7768c0
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Mar 5 21:29:36 2023 +0530
+
+    added comments to the back-end files
+
+commit bd3e620cb249e3976199484e2ad10b9870f65b24
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Mar 5 20:44:21 2023 +0530
+
+    added comments in the routes
+
+commit 2ffef3b33fa8e7fa484a9f31295c77319db3610e
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Mar 5 20:04:49 2023 +0530
+
+    organized the files inot folders to make navigation easy.
+
+commit 74b86843e0d17ba6f78aeb36cda71313b16d38f1
+Author: Aishwarya S. Tomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Mar 5 07:44:33 2023 +0530
+
+    Create README.md
+
+commit 9f6d113e5dfeb0c31662ff9a94fa53765392dc2a
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sat Mar 4 21:56:25 2023 +0530
+
+    removing sample images
+
+commit 70e0306207a7d31a91cc5881886b00f976aa0f04
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sat Mar 4 21:51:20 2023 +0530
+
+    completed the back-end work for edit and view profile.
+
+commit fbfd63c70356f7fe3f364b572188a4972442510c
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Sat Mar 4 20:25:21 2023 +0500
+
+    Responsive design
+    
+    The head data has been made responsive
+    dic classes have been renamed in the head class
+
+commit ce51976d763cf89ee4d0e73713720aa2f8e509aa
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:55:51 2023 +0800
+
+    Add files via upload
+
+commit c62312ce5f2fd088353478eb48192406f9b0e38d
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:55:28 2023 +0800
+
+    Delete nicepage.js
+
+commit c206bc755fcc3da5e37ec9690994f97d5c28d470
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:55:19 2023 +0800
+
+    Delete jquery.js
+
+commit 85a533ca8bc5d2dba315edd56a312338856b7181
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:52:42 2023 +0800
+
+    Add files via upload
+
+commit 65289f1ed4e4110b5f767a5004b3df66c2939df7
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:51:16 2023 +0800
+
+    Add files via upload
+
+commit 1e2794b0646f680d307d81806f326aa37ccf7054
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:50:34 2023 +0800
+
+    Update About.html
+
+commit 1232d9038942ee72d848cbe8ce71b74dab8cb63c
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Mar 3 00:40:24 2023 +0800
+
+    Add files via upload
+
+commit cecdfdcca557af3d5e050caaa4c007dfeeb48af8
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Thu Mar 2 12:17:51 2023 +0500
+
+    Minor changes
+    
+    eye icon fixed
+
+commit 613ac2b424c9be896011706ab7f8bba3f67e2e4b
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Thu Mar 2 12:13:54 2023 +0500
+
+    Minor Changes
+    
+    Fixed the hidden icons
+
+commit f04edc458c7e4d22c2392c8fc590d1084dacf077
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Thu Mar 2 11:55:18 2023 +0500
+
+    fixed viewProfile
+    
+    Fixed viewProfile Dropdowns
+    Changed cards for Projects
+
+commit a2e28e1c3fffafcac07f16ed4617e541a7092e77
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Thu Mar 2 01:28:06 2023 +0500
+
+    Minor Fixes
+    
+    Buttons are made smaller
+    The dropdowns are all even
+
+commit 013bdfd17cd4b6cc497b9c459c97399c3460f996
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Wed Mar 1 20:40:54 2023 +0500
+
+    Editable Text added
+    
+    Ive created jquery that gets triggered on double click and makes the text editable that can be then posted
+
+commit 8962702b87c1668073c4e67a81eb843327f0fe1e
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Wed Mar 1 19:43:39 2023 +0500
+
+    major changes in profile page
+    
+    fixed the responsiveness and dropdowns
+
+commit 97f60180db6e4fbb91c6320c8b9d8d8ec2b57116
+Merge: e1ddfa9 8c1b3be
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Wed Mar 1 19:07:34 2023 +0500
+
+    Merge branch 'main' of https://github.com/aishtomer/TalentHub
+
+commit 8c1b3be65c42d07efb1e4863590c4e0022ee0800
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 15:01:55 2023 +0800
+
+    Update Template.html
+    
+    update the link of images, styles and scripts
+
+commit f773e0ef6b33ea4a867b268037158cf496796733
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:58:45 2023 +0800
+
+    Update Sign-Up.html
+    
+    update the link of images
+
+commit d5ce5025d5f7aaa1e869cd5dda3610b84467a808
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:57:03 2023 +0800
+
+    Update Landing-page-or-Login-page.html
+    
+    update the link of image
+
+commit ea578d845880e98eba15ae717c798843dbcdc32a
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:53:46 2023 +0800
+
+    Update Landing-page-or-Login-page.html
+    
+    update the link of image and scripts file
+
+commit 4df9b7e47a22608c72eca2d530395275cb29c04b
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:52:12 2023 +0800
+
+    Update Sign-Up.html
+    
+    update the link of image, styles and scripts
+
+commit b9d7195601a9c78a72f389151e0bedf9b2890e90
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:49:34 2023 +0800
+
+    Add files via upload
+
+commit 597274cb827ed852c7834ad344c47c448c1e19dc
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Wed Mar 1 14:44:15 2023 +0800
+
+    Update Landing-page-or-Login-page.html
+    
+    update the link of image, style and script.
+
+commit e1ddfa91a300b23b32b5a5dcd537fa3939f520c8
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Wed Mar 1 02:59:03 2023 +0500
+
+    editProfile
+    
+    edit profile css javascript and html files are added. (uncomplete)
+    Ive added icons
+
+commit 1950ba890b4dc62c1e1a057329c856fce29bca87
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Wed Mar 1 01:12:26 2023 +0500
+
+    viewProfile.html and viewProfile.css
+    
+    Ive added the profile pages. There are some modifications left but the html is ready. The page is for the user side
+
+commit 0aad2e16b762731a0c3007e17743cfb77184c2b9
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Tue Feb 28 20:03:27 2023 +0530
+
+    removind sample files and moving front-end javascript in scripts folder inside public folder
+
+commit 9ff93cf62c2c3fc80c5b620e4dc6663133a38ffd
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Tue Feb 28 17:02:13 2023 +0800
+
+    Add files via upload
+
+commit 5b8d749838f02d35927cb6f734cf0a54f65e3c34
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Tue Feb 28 17:00:54 2023 +0800
+
+    Add files via upload
+
+commit d2bac96af120903811c7851d9d21120efbb7ff2f
+Author: Iatisamnawaz <Iatisamnawaz@users.noreply.github.com>
+Date:   Tue Feb 28 11:57:36 2023 +0500
+
+    home.html and home.css
+    
+    ive added home.html and home.css, without the navigation bar
+
+commit 58c3150b722242b7e8b6569e870c715ea4b0951c
+Merge: e906892 1a2aa6c
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:11:47 2023 +0800
+
+    Merge pull request #1 from aishtomer/front-1
+    
+    Front 1
+
+commit 1a2aa6ca724784201d46dad14cdb91a5efe907eb
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:08:42 2023 +0800
+
+    Update Sign-Up.html
+    
+    edit the Bottom Caption background image name.
+
+commit dd599f057317049c3ff3e09fef8a192eafae4d99
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:07:42 2023 +0800
+
+    Update Landing-page-or-Login-page.html
+    
+    edit the Bottom Caption background image name.
+
+commit e9068922694ce7403e583326ec05c12f24e40841
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:01:24 2023 +0800
+
+    Add files via upload
+
+commit c71518b629a3552ba1b75604eb46ee3229fa7ef5
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:00:39 2023 +0800
+
+    Add files via upload
+
+commit 2bb1f65f6406288761364cd7ddce6c67ecacb899
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 23:00:19 2023 +0800
+
+    Add files via upload
+
+commit dc8b516499a22519cd84497d3ae0fb2bfba137e0
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 22:59:27 2023 +0800
+
+    Add files via upload
+
+commit 44f2f3ca78c9856b903876050d313da98be0c040
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 22:59:05 2023 +0800
+
+    Add files via upload
+
+commit 0b148e716d6e192cec6f7b6cc580731d5e4c5688
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 22:58:00 2023 +0800
+
+    Add files via upload
+
+commit 08c311587e107f957708708723beb2c0d60f6786
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Mon Feb 27 22:57:03 2023 +0800
+
+    Add files via upload
+
+commit b249dce2da67a32a23f80bb6007ce3b1ec551b9a
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Mon Feb 27 07:11:46 2023 +0530
+
+    adding some sample files
+
+commit ad4877b71a68e3f203080539040550be26606959
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Feb 26 20:46:28 2023 +0530
+
+    adding images
+
+commit 622ff7e5c8e4a973d97c00077698694671f53f66
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Feb 26 20:26:25 2023 +0530
+
+    rebuilding
+
+commit 710153d9da2742c08ac02353b4564b3f951bb579
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Sun Feb 26 20:25:48 2023 +0530
+
+    clearing everything
+
+commit 8941cc74cfa8ac0100cff1e7c890cb5a636421b0
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Sun Feb 26 19:47:14 2023 +0800
+
+    Add files via upload
+
+commit d8c9801550f2deea9cdf52c285062c2017e0b856
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Sun Feb 26 19:46:37 2023 +0800
+
+    Add files via upload
+
+commit 9a97a074fe73ea63e55098280af9613c759d5534
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Sun Feb 26 19:45:32 2023 +0800
+
+    Add files via upload
+
+commit e898d8f074f975167a504eeb4db746b654afbe74
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Feb 24 11:56:00 2023 +0800
+
+    Add files via upload
+
+commit cd8a8c6ede643c67a8f6434f8047307088bd0f6f
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Fri Feb 24 11:55:21 2023 +0800
+
+    Add files via upload
+
+commit aca960f04043c907972689eae58d50a121476243
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Tue Feb 21 14:18:54 2023 +0800
+
+    Add files via upload
+
+commit 691c554d07dc404f2b4525e456f1982be51390a3
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Tue Feb 21 14:16:09 2023 +0800
+
+    Add files via upload
+
+commit c41d052818826e00a0cfccd2bf487243c8b3a5e4
+Author: Angeliyu <122958956+Angeliyu@users.noreply.github.com>
+Date:   Tue Feb 21 14:15:25 2023 +0800
+
+    Add files via upload
+
+commit cb02097063ab850334db8fb3909685e3f45cde6c
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Thu Jan 19 14:34:19 2023 +0530
+
+    updating README.md
+
+commit 4c309fb116e556fc26f367b470ebe66bfec02ec9
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Thu Jan 19 14:32:42 2023 +0530
+
+    adding node modules
+
+commit debb857ce3e21fdfb387f2530a588847aa46df27
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Thu Jan 19 14:30:33 2023 +0530
+
+    setting up initial file structure for the project
+
+commit 204f7339b48b8169cdf5acabead05d249ac05825
+Author: aishtomer <91372700+aishtomer@users.noreply.github.com>
+Date:   Wed Jan 18 10:40:06 2023 +0530
+
+    first commit
