@@ -21,7 +21,7 @@ if (isset($_COOKIE['user'])) {
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
                 <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-                    <a href="/phpServer/public/views/About.html" class="About Button u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-2">About<br></a>
+                    <a href="/phpServer/About.php" class="About Button u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-2">About<br></a>
                 </div>
             </div>
             <?php
