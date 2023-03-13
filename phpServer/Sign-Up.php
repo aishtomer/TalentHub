@@ -85,14 +85,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body class="u-body u-overlap u-xl-mode" data-lang="en"><header class="u-clearfix u-header" id="sec-6a10" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="Home-page.html" class="Logo u-image u-logo u-image-1" data-image-width="512" data-image-height="88" title="Home page">
-          <img src="/images/websitelogo.png" class="u-logo-image u-logo-image-1">
+        <a href="/phpServer/Home-page.php" class="Logo u-image u-logo u-image-1" data-image-width="512" data-image-height="88" title="Home page">
+          <img src="images/websitelogo.png" class="u-logo-image u-logo-image-1">
         </a>
         <div class="Buttons Cell u-layout-grid u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                <a href="Home-page.html" class="Button Home u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-1">Home<br>
+                <a href="/phpServer/Home-page.php" class="Button Home u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-1">Home<br>
                 </a>
               </div>
             </div>
@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-valign-top-sm u-container-layout-1">
-                  <img class="u-expanded-width u-image u-image-contain u-image-1" src="/images/image.png" data-image-width="519" data-image-height="281">
+                  <img class="u-expanded-width u-image u-image-contain u-image-1" src="images/image.png" data-image-width="519" data-image-height="281">
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
@@ -182,7 +182,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
     </section>
     <section class="u-clearfix u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-2" id="sec-2b9d">
-      <img class="Bottom Image u-expanded-width u-image u-image-round u-top-left-radius-50 u-top-right-radius-50 u-image-1" src="/images/image11.png" data-image-width="559" data-image-height="146">
+      <img class="Bottom Image u-expanded-width u-image u-image-round u-top-left-radius-50 u-top-right-radius-50 u-image-1" src="images/image11.png" data-image-width="559" data-image-height="146">
       <h2 class="Bottom Caption u-align-center u-custom-font u-text u-text-body-alt-color u-text-1">Create and Download Your CV in just on​e CLICK !</h2>
     </section>
   
